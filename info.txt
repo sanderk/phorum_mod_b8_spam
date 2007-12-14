@@ -1,0 +1,10 @@
+title: b8 Spam Filter
+desc: Filters spam based on Baysian Filter.
+require_version: 5.0.0
+version: 1.0.0
+author: Sander Kieft
+url: http://www.kieft.com/
+
+hook: after_post|phorum_mod_b8_spam_after_post
+hook: after_edit|phorum_mod_b8_spam_after_edit
+hook: after_approve|phorum_mod_b8_spam_after_approve
